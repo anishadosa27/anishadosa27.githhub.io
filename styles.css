@@ -1,0 +1,605 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Delius";
+  src: url("Delius-Regular.ttf");
+}
+
+body {
+  font-family: "Delius";
+  font-weight: normal;
+}
+
+.btn {
+  background-color: #ef98a0;
+  border: none;
+  position: absolute;
+  padding: 1%;
+  width: 15%;
+  top: 70%;
+  left: 42%;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Delius";
+}
+
+/* Navigation */
+
+nav {
+  height: 10vh;
+}
+
+nav li {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  margin-left: 1%;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+li.logo {
+  flex-grow: 1;
+}
+
+ul.container-nav {
+  display: flex;
+  background-color: black;
+  padding: 1%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 3%;
+  padding-right: 8%;
+  font-size: 24px;
+}
+
+li.item,
+li.divider {
+  margin-left: 2%;
+}
+
+/* Header section */
+
+.header-banner {
+  background-color: black;
+  color: white;
+  height: 90vh;
+  position: relative;
+}
+
+h1.home-heading {
+  text-align: center;
+  font-weight: normal;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+}
+
+h1 span.name {
+  color: #ef98a0;
+  font-size: 65px;
+}
+
+h1 span.developer {
+  font-size: 70px;
+}
+
+/* Portfolio */
+
+h2.portfolio-heading,
+h1.portfolio-heading.portfolio-page {
+  font-size: 40px;
+  color: #ef98a0;
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+  margin-bottom: 2%;
+}
+
+p.portfolio-text {
+  font-size: 20px;
+}
+
+.img-portfolio {
+  width: 100%;
+}
+
+ul.work-portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+ul.work-portfolio li {
+  list-style: none;
+  width: 33.333%;
+  position: relative;
+}
+
+.headings-section {
+  padding: 3%;
+}
+
+figure.portfolio-image {
+  background-color: black;
+  overflow: hidden;
+}
+
+.portfolio-image img {
+  width: 100%;
+  opacity: 0.7;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.portfolio-image img:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.btn.portfolio1,
+.btn.portfolio2,
+.btn.portfolio3,
+.btn.portfolio4 {
+  top: 80%;
+  width: 50%;
+  padding: 3%;
+  left: 25%;
+  background: black;
+  color: white;
+}
+
+.btn-see-more,
+.btn-submit {
+  background-color: #ef98a0;
+  border: none;
+  padding: 1%;
+  width: 15%;
+  margin-top: 3%;
+  margin-left: 42%;
+  margin-bottom: 3%;
+}
+
+.btn-see-more a,
+.btn-submit a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-family: "Delius";
+}
+
+/* ABOUT ME */
+
+.about-me-section {
+  background: black;
+  height: 100vh;
+}
+
+h2.about-heading {
+  font-size: 40px;
+  color: #ef98a0;
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+  margin-bottom: 2%;
+}
+
+.about-text {
+  color: white;
+  font-size: 20px;
+}
+
+h3 {
+  color: white;
+}
+
+.headings-section.about {
+  padding: 3%;
+  padding-bottom: 2%;
+}
+
+.skills li {
+  margin-left: 3%;
+  margin-bottom: 5%;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+  width: 30%;
+  margin-left: 2%;
+  display: inline-block;
+  float: left;
+}
+
+.progress-bar {
+  background: black;
+  height: 30px;
+  display: block;
+  margin-top: 1%;
+  border: 2px solid white;
+}
+
+.progress-bar span {
+  height: 26px;
+  float: left;
+  background: white;
+}
+
+/* HTML */
+
+span.html,
+span.css,
+span.javascript,
+span.bootstrap,
+span.jquery,
+span.figma,
+span.technical-seo,
+span.photoshop,
+span.git-github {
+  padding-left: 2%;
+  padding-top: 0.5%;
+}
+
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+/* CSS */
+
+.css {
+  width: 80%;
+  animation: css 2s;
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+/* JAVASCRIPT */
+
+.javascript {
+  width: 30%;
+  animation: javascript 2s;
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+/* BOOTSTRAP */
+
+.bootstrap {
+  width: 60%;
+  animation: bootstrap 2s;
+}
+
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+/* JQUERY */
+
+.jquery {
+  width: 10%;
+  animation: jquery 2s;
+}
+
+@keyframes jquery {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+/* FIGMA */
+
+.figma {
+  width: 90%;
+  animation: figma 2s;
+}
+
+@keyframes figma {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+/* TECH SEO */
+
+.technical-seo {
+  width: 60%;
+  animation: technical-seo 2s;
+}
+
+@keyframes technical-seo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+/* PHOTOSHOP */
+
+.photoshop {
+  width: 10%;
+  animation: photoshop 2s;
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+/* GIT/GITHUB */
+
+.git-github {
+  width: 50%;
+  animation: git-github 2s;
+}
+
+@keyframes git-github {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+/* CONTACT US */
+
+h2.contact-heading {
+  font-size: 40px;
+  color: #ef98a0;
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.headings-section.contact {
+  padding: 0%;
+}
+
+p.contact-text {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5%;
+  background: #c4c4c4;
+  border: none;
+  margin-bottom: 3%;
+}
+
+form.contact-form {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+label {
+  color: black;
+}
+
+::placeholder {
+  color: black;
+  font-size: 15px;
+  font-family: "Delius";
+}
+
+.btn-submit {
+  width: 19%;
+  margin-left: 39%;
+  margin-top: 0%;
+}
+
+.btn-submit a {
+  font-size: 15px;
+}
+
+/* PORTFOLIO PAGE */
+
+/* Header Section*/
+.portfolio-pageheader-container {
+  background: black;
+}
+
+.portfolio-text.portfolio-page {
+  color: white;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+/* CONTACT PAGE */
+
+.contact-section.contact-page {
+  background: black;
+}
+
+p.contact-text.contact-page {
+  color: white;
+}
+
+h2.contact-heading.contact-page {
+  margin-top: 0%;
+  padding-top: 3%;
+  margin-left: -1%;
+}
+
+.contact-section.contact-page {
+  background: black;
+  padding-bottom: 3%;
+}
+
+hr {
+  border: solid 2px white;
+}
+
+.form-input {
+  background: white;
+}
+
+/* ABOUT PAGE */
+.headings-section.about.about-page {
+  padding: 3%;
+  padding-bottom: 2%;
+  float: left;
+  width: 55%;
+  padding-top: 0%;
+}
+
+.skills-heading-about-page {
+  color: white;
+  text-decoration: underline;
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+
+p.about-text.about-page {
+  color: white;
+  font-size: 17px;
+}
+
+.skills.about-page {
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.about-heading.about-page {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+.skills.about-page li h3 {
+  font-size: 15px;
+}
+
+span.progress-bar.about-page {
+  height: 22px;
+}
+
+span.about-page {
+  height: 20px;
+  font-size: 17px;
+  padding-top: 0%;
+}
+
+.skills.about-page li {
+  margin-bottom: 1%;
+}
+
+.profile-title,
+.experience-title {
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+.about-me-section.about-page {
+  height: 140vh;
+}
+
+button.btn.btn-contact-page {
+  position: initial;
+  margin-top: 10%;
+  width: 30%;
+  padding: 2%;
+}
+
+button.btn.btn-contact-page a {
+  font-size: 17px;
+}
+
+/* Modal Classes */
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: auto;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 181%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
