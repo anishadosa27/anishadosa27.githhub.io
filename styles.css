@@ -607,3 +607,13 @@ button.btn.btn-contact-page a {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+@media (max-width: 1250px) and (min-width: 400px){
+    /*Contact Us Button*/
+  .btn {
+    padding: 2%;
+    width: 25%;
+    left: 38%;
+    font-size: 15px;
+}
+}
