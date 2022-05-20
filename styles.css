@@ -161,16 +161,14 @@ figure.portfolio-image {
   opacity: 1;
 }
 
-.btn.portfolio1,
-.btn.portfolio2,
-.btn.portfolio3,
-.btn.portfolio4 {
-  top: 80%;
-  width: 50%;
-  padding: 3%;
-  left: 25%;
-  background: black;
-  color: white;
+.btn.portfolio1, .btn.portfolio2, .btn.portfolio3, .btn.portfolio4 {
+    top: 80%;
+    width: 60%;
+    padding: 3%;
+    left: 25%;
+    background: black;
+    color: white;
+    font-size: 14px;
 }
 
 .btn-see-more,
@@ -698,6 +696,16 @@ i.fa.fa-bars {
   
   nav {
     height: auto;
+  }
+  
+  /*Portfolio*/
+  
+  p.portfolio-text {
+    font-size: 14px;
+  }
+  
+  ul.work-portfolio li {
+    width: 100%;
   }
   
 }
