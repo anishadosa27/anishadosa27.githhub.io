@@ -37,6 +37,7 @@ body {
 
 nav {
   height: 10vh;
+  background: black;
 }
 
 nav li {
@@ -62,7 +63,7 @@ ul.container-nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
-  padding: 3%;
+  padding: 2%;
   padding-right: 8%;
   font-size: 24px;
 }
@@ -71,6 +72,9 @@ li.item,
 li.divider {
   margin-left: 2%;
 }
+
+/* Mobile Nav*/
+
 
 /* Header section */
 
