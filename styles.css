@@ -336,7 +336,7 @@ span.git-github {
     width: 0%;
   }
   100% {
-    width: 10%;
+    width: 20%;
   }
 }
 
@@ -375,7 +375,7 @@ span.git-github {
 /* PHOTOSHOP */
 
 .photoshop {
-  width: 10%;
+  width: 20%;
   animation: photoshop 2s;
 }
 
