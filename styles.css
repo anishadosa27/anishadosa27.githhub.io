@@ -608,7 +608,7 @@ button.btn.btn-contact-page a {
   z-index: 5;
 }
 
-@media (max-width: 1250px) and (min-width: 400px){
+@media (max-width: 1250px) and (min-width: 500px){
     /*Contact Us Button*/
   .btn {
     padding: 2%;
@@ -616,4 +616,27 @@ button.btn.btn-contact-page a {
     left: 38%;
     font-size: 15px;
 }
+} 
+  
+@media (max-width: 499px) and (min-width: 320px){
+    /*Contact Us Button*/
+  
+  .btn {
+    padding: 5%;
+    width: 45%;
+    left: 28%;
+}
+  
+  /* Header */
+
+  h1 span.name {
+    color: #ef98a0;
+    font-size: 45px;
+  }
+
+  h1 span.developer {
+    font-size: 42px;
+  }
+  
+  
 }
