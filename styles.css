@@ -707,4 +707,11 @@ i.fa.fa-bars {
     width: 100%;
   }
   
+  
+ .btn-see-more, .btn-submit {
+    padding: 2%;
+    width: 40%;
+    margin-left: 31%;
+}
+  
 }
