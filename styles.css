@@ -33,6 +33,10 @@ body {
   font-family: "Delius";
 }
 
+.topnav {
+    height: 336px;
+}
+
 /* Navigation */
 
 nav {
@@ -657,7 +661,9 @@ i.fa.fa-bars {
 
 .topnav #myLinks {
   display: none;
-}
+  z-index: 1;
+  margin-top: 99px;
+  }
 
 .topnav a {
   color: white;
