@@ -52,8 +52,10 @@ nav li a {
   text-decoration: none;
 }
 
-li.logo {
-  flex-grow: 1;
+.logo {
+    background: black;
+    padding: 46px;
+    float: left;
 }
 
 ul.container-nav {
