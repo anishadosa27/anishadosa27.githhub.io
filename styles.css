@@ -696,4 +696,8 @@ i.fa.fa-bars {
     display: none;
   }
   
+  nav {
+    height: auto;
+  }
+  
 }
