@@ -606,7 +606,11 @@ button.btn.btn-contact-page a {
   z-index: 5;
 }
 
-@media (max-width: 1250px) and (min-width: 500px){
+i.fa.fa-bars {
+  display: none;
+}
+
+@media (max-width: 1250px) and (min-width: 600px){
     /*Contact Us Button*/
   .btn {
     padding: 2%;
@@ -616,7 +620,7 @@ button.btn.btn-contact-page a {
 }
 } 
   
-@media (max-width: 499px) and (min-width: 320px){
+@media (max-width: 599px) and (min-width: 320px){
     /*Contact Us Button*/
   
   .btn {
@@ -674,5 +678,9 @@ button.btn.btn-contact-page a {
   background-color: #04AA6D;
   color: white;
 }
+  
+  i.fa.fa-bars {
+    display: block; 
+  }
   
 }
