@@ -171,15 +171,14 @@ figure.portfolio-image {
     font-size: 14px;
 }
 
-.btn-see-more,
-.btn-submit {
-  background-color: #ef98a0;
-  border: none;
-  padding: 1%;
-  width: 15%;
-  margin-top: 3%;
-  margin-left: 42%;
-  margin-bottom: 3%;
+.btn-see-more, .btn-submit {
+    background-color: #ef98a0;
+    border: none;
+    padding: 1%;
+    width: 18%;
+    margin-top: 3%;
+    margin-left: 41%;
+    margin-bottom: 3%;
 }
 
 .btn-see-more a,
