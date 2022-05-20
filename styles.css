@@ -690,4 +690,8 @@ i.fa.fa-bars {
     padding: 21px;
 }
   
+  .divider{
+    display: none;
+  }
+  
 }
