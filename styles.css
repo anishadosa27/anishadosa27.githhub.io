@@ -728,4 +728,15 @@ i.fa.fa-bars {
     height: auto;
 }
   
+  .about-text {
+    font-size: 16px;
+}
+  
+  p.contact-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+    margin-bottom: 7%;
+}
+  
 }
