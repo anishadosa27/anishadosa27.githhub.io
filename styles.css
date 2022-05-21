@@ -708,10 +708,11 @@ i.fa.fa-bars {
   }
   
   
- .btn-see-more, .btn-submit {
-    padding: 2%;
-    width: 40%;
+.btn-see-more, .btn-submit {
+    padding: 3%;
+    width: 45%;
     margin-left: 31%;
+    margin-top: 5%;
 }
   
   /*About*/
