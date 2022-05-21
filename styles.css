@@ -714,4 +714,17 @@ i.fa.fa-bars {
     margin-left: 31%;
 }
   
+  /*About*/
+  .col-1, .col-2, .col-3 {
+    width: 90%;
+  }
+  
+  .skills li {
+    margin-bottom: 0;
+}
+  
+  .about-me-section {
+    height: 232vh;
+}
+  
 }
