@@ -193,7 +193,7 @@ figure.portfolio-image {
 
 .about-me-section {
   background: black;
-  height: 100vh;
+  height: auto;
 }
 
 h2.about-heading {
