@@ -739,4 +739,13 @@ i.fa.fa-bars {
     margin-bottom: 7%;
 }
   
+  input, textarea {
+    height: 35px;
+}
+  
+  form.contact-form {
+    width: 90%;
+    margin-left: 5%;
+}
+  
 }
