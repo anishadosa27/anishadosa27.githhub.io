@@ -8,23 +8,35 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="favicon-16x16.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <!-- Navigation -->
+     <!-- Navigation -->
+    <div class="mobile-container">
+    <div class="topnav">
+          <div class="logo">
+        <a href="index.html">
+          <img src="AD.png" alt="logo-image" />
+      </a>
+    </div>
     <nav>
-      <ul class="container-nav">
-        <li class="logo"><a href="index.html"><img src="AD.png" alt="logo-image" /></a></li>
+      <ul class="container-nav" id="myLinks">
         <li class="item"><a href="index.html">HOME</a></li>
-        <li class="divider">|</li>
+        <li class="divider">| </li>
         <li class="item"><a href="portfolio.html">PORTFOLIO</a></li>
-        <li class="divider">|</li>
+        <li class="divider">| </li>
         <li class="item"><a href="about-me.html">ABOUT</a></li>
-        <li class="divider">|</li>
+        <li class="divider">| </li>
         <li class="item"><a href="contact-me.html">CONTACT</a></li>
       </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
     </nav>
-</br></br>
-    <hr />
+    </div>
+    </div>
+
+    <!-- Navigation End -->
  <!--ABOUT ME-->
  <div class="about-me-section about-page">
     <h2 class="about-heading about-page"> ABOUT ME / SKILLS</h2>
@@ -78,5 +90,17 @@
     </div>
 </div>
 <!--END ABOUT ME-->
+  <!-- burger menu -->
+  <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+  <!-- end burger menu -->
 </body>
 </html>
