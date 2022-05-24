@@ -617,6 +617,14 @@ i.fa.fa-bars {
     left: 38%;
     font-size: 15px;
 }
+  
+  button.btn.btn-contact-page {
+    width: 70%;
+}
+  
+  .about-me-section.about-page {
+    height: 930px;
+}
 } 
   
 @media (max-width: 599px) and (min-width: 320px){
