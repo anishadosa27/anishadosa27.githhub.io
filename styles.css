@@ -760,4 +760,21 @@ i.fa.fa-bars {
     margin-bottom: 7%;
 }
   
+  .about-heading.about-page {
+    padding-bottom: 7%;
+}
+  
+ .headings-section.about.about-page {
+    width: 95%;
+}
+  
+  .skills.about-page {
+    width: 85%;
+    margin-top: 8%;
+}
+  
+  .about-me-section.about-page {
+    height: 1670px;
+}
+  
 }
