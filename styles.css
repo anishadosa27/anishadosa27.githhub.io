@@ -773,4 +773,8 @@ i.fa.fa-bars {
     height: 1670px;
 }
   
+  button.btn.btn-contact-page {
+    width: 50%;
+}
+  
 }
