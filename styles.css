@@ -113,9 +113,16 @@ h1.portfolio-heading.portfolio-page {
   font-size: 40px;
   color: #ef98a0;
   text-align: center;
-  width: 90%;
   font-weight: normal;
   margin-bottom: 2%;
+}
+
+h2.portfolio-heading {
+  width: 100%;
+}
+
+h1.portfolio-heading.portfolio-page {
+  width: 90%;
 }
 
 p.portfolio-text {
@@ -200,9 +207,12 @@ h2.about-heading {
   font-size: 40px;
   color: #ef98a0;
   text-align: center;
-  width: 90%;
   font-weight: normal;
   margin-bottom: 2%;
+}
+
+h2.about-heading.about-heading-homepage {
+  width: 100%;
 }
 
 .about-text {
@@ -531,8 +541,9 @@ p.about-text.about-page {
 }
 
 .about-heading.about-page {
-  padding-top: 3%;
-  padding-bottom: 1%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    width: 90%;
 }
 
 .skills.about-page li h3 {
