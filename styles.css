@@ -420,10 +420,13 @@ h2.contact-heading {
   font-size: 40px;
   color: #ef98a0;
   text-align: center;
-  width: 90%;
   font-weight: normal;
   margin-bottom: 2%;
   margin-top: 3%;
+}
+
+contact-heading-homepage {
+    width: 100%;
 }
 
 .headings-section.contact {
@@ -498,6 +501,7 @@ h2.contact-heading.contact-page {
   margin-top: 0%;
   padding-top: 3%;
   margin-left: -1%;
+  width: 90%;
 }
 
 .contact-section.contact-page {
